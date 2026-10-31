@@ -1,0 +1,45 @@
+{
+  "selected": {
+    "name": "fullbase50_graphbag50",
+    "anchor": "full",
+    "weight": 0.5,
+    "cv": {
+      "correct": 4410,
+      "n": 4755,
+      "disagreement_correct": 1769,
+      "disagreement_n": 2114,
+      "minority_correct": 233,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 750,
+      "n": 798,
+      "disagreement_correct": 307,
+      "disagreement_n": 355,
+      "minority_correct": 37,
+      "minority_n": 60
+    }
+  },
+  "test_evaluated": false,
+  "search_seconds": 29.045389100000648,
+  "source_hashes": {
+    "submission.py": "445451602648359b6e5fde2cb0526690f89d8603999a4a83c0ff0b05c0f1c256",
+    "bag_search.py": "87946bd02f6138a76ac4d1e612bbfc0fd4b3b5fd76388b36a59cd5d776cc079f",
+    "baseline.py": "cd1eb68a345d62a83ba58eda6737accd9edb1e5e8145fdb147ab9d5151fb401f",
+    "rich_features.py": "a5a76f19901a329fe23ebc72072a5957eb6918bab18f78f5510940da558503b3",
+    "features.py": "1fd55a399fb92076083386da05f101d0fd6c8b94372e5555f9fe294116b6052f",
+    "quantity_features.py": "a39036ea8e5981a136adb77fcd09f686db04e8844899ed66de198c43990d2a3c",
+    "arith.py": "b2ae6c30246d0c7fcad744e2698e90a7239ceb62dbcacbff13dd556850b8af39",
+    "training.py": "6225ff1c23a6df9f1ce00f00618f9fdf96634a675811d979d640e4ccddb0c9c8"
+  },
+  "asset_hashes": {
+    "base.npz": "fb7a5ccf0821267fd16d8313827c332ca359ea2e367496dfd61598416b00136d",
+    "config.json": "fd6e9e0f39be8a061d9171fd35fd4940605299727dfbb0973fb0c422aa67b241",
+    "graph_0.npz": "a1292124d092b7ff7fcbfab09cae88168c289e7e6cd015680cc38288da516989",
+    "graph_1.npz": "bbb880de2e7daf4c620ed2d74f69bf128a15cde93c0a0ea8233ea5e102abf6aa",
+    "graph_2.npz": "2090d39abd205b57e1f7359203d45cc550b19ddc4718b5458a2e881fc7130d64",
+    "graph_3.npz": "c8f5750db52f527cfb601b9382e95fbcb217ad963790d76c874adff3a182560c",
+    "graph_4.npz": "aa3450385be7bbd29171fc940854ac3bd73cca1070907f5239cca88d75419f27",
+    "graph_5.npz": "44a2463736789a37070cf8e50681782ae6fd81bf9625de9178db5840f4557ca6"
+  }
+}

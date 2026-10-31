@@ -1,0 +1,117 @@
+{
+  "specs": [
+    {
+      "name": "manual_ce_l7",
+      "block": "manual",
+      "loss": "ce",
+      "leaves": 7
+    },
+    {
+      "name": "manual_ce_l15",
+      "block": "manual",
+      "loss": "ce",
+      "leaves": 15
+    },
+    {
+      "name": "manual_pair_l7",
+      "block": "manual",
+      "loss": "pair",
+      "leaves": 7
+    },
+    {
+      "name": "manual_pair_l15",
+      "block": "manual",
+      "loss": "pair",
+      "leaves": 15
+    },
+    {
+      "name": "conditions_ce_l7",
+      "block": "conditions",
+      "loss": "ce",
+      "leaves": 7
+    },
+    {
+      "name": "conditions_ce_l15",
+      "block": "conditions",
+      "loss": "ce",
+      "leaves": 15
+    },
+    {
+      "name": "conditions_pair_l7",
+      "block": "conditions",
+      "loss": "pair",
+      "leaves": 7
+    },
+    {
+      "name": "conditions_pair_l15",
+      "block": "conditions",
+      "loss": "pair",
+      "leaves": 15
+    },
+    {
+      "name": "relative_ce_l7",
+      "block": "relative",
+      "loss": "ce",
+      "leaves": 7
+    },
+    {
+      "name": "relative_ce_l15",
+      "block": "relative",
+      "loss": "ce",
+      "leaves": 15
+    },
+    {
+      "name": "relative_pair_l7",
+      "block": "relative",
+      "loss": "pair",
+      "leaves": 7
+    },
+    {
+      "name": "relative_pair_l15",
+      "block": "relative",
+      "loss": "pair",
+      "leaves": 15
+    }
+  ],
+  "rounds": [
+    20,
+    60,
+    160
+  ],
+  "tree_weights": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "beta": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "new_validation_finalists": 5,
+  "reference_also_compared": true,
+  "templates": [
+    "part",
+    "remainder",
+    "grown",
+    "whole_part",
+    "whole_remainder",
+    "whole_grown",
+    "net_from_discount",
+    "increment_from_total",
+    "part_from_remaining",
+    "total_from_part",
+    "two_parts",
+    "discount_then_part",
+    "two_discounts",
+    "two_increases",
+    "part_minus_fee",
+    "discount_minus_fee",
+    "fixed_plus_part",
+    "fixed_plus_discount",
+    "discount_then_part_minus_fee",
+    "two_parts_plus_fee"
+  ],
+  "test_references_used": false
+}

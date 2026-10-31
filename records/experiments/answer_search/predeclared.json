@@ -1,0 +1,15 @@
+{
+  "pooling": [
+    "candidate",
+    "answer_max",
+    "answer_normalised"
+  ],
+  "weight_step": 0.2,
+  "validation_finalists": 5,
+  "experts": [
+    "83.08 baseline",
+    "original 82.87 linear",
+    "graph models"
+  ],
+  "test_references_used": false
+}

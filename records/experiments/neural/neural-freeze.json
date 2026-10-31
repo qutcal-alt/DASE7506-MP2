@@ -1,0 +1,58 @@
+{
+  "selected": {
+    "name": "norm_ce_hard_drop40_e12_max_t0.5_lin0.7",
+    "key": "norm_ce_hard_drop40_e12",
+    "spec": {
+      "name": "norm_ce_hard_drop40",
+      "normalised": true,
+      "loss": "ce",
+      "regime": "has_wrong",
+      "drop": 0.4
+    },
+    "epoch": 12,
+    "aggregation": "max",
+    "temperature": 0.5,
+    "linear_weight": 0.7,
+    "cv": {
+      "correct": 4369,
+      "n": 4755,
+      "disagreement_correct": 1728,
+      "disagreement_n": 2114,
+      "minority_correct": 210,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 748,
+      "n": 798,
+      "disagreement_correct": 305,
+      "disagreement_n": 355,
+      "minority_correct": 38,
+      "minority_n": 60
+    }
+  },
+  "test_evaluated": false,
+  "previous_test_correct": 387,
+  "source_hashes": {
+    "neural_submission.py": "6193118040d2d02509da634c2954778368d322d744671c76b07a7a2c2966d62f",
+    "neural_search.py": "7443008ad439007e25272474acdfc5a24dfb559442077b5ea0d7a8b7bdd39f7f",
+    "submission.py": "1b37ba34a84655fd3cea49fcb7ad4899f83ebe3a6c1f552885e50a868fb5d58f",
+    "features.py": "1fd55a399fb92076083386da05f101d0fd6c8b94372e5555f9fe294116b6052f",
+    "arith.py": "b2ae6c30246d0c7fcad744e2698e90a7239ceb62dbcacbff13dd556850b8af39",
+    "control_features.py": "ca3a04dbc38e4f304669d8c38e40e4bc8d040b524462714befdfae8c42e37a47",
+    "search.py": "f12d31bb9c25c72eb7c15fd0fd5d8e231e9d2e9e0f8c41780c6ed09be861f217"
+  },
+  "asset_hashes": {
+    "config.json": "7b4a8e28e0d286cccb5b98107a6506a7e266bc4c57c076210dc195034038d420",
+    "linear.npz": "94e3c216bdf972a48e9d5a243a1934577244dc03cd15fc433a8be9d7b8d688b7",
+    "neural_11.npz": "153d0fe037fb4a60f78d10954bbff7bdca4ad88b413bbe5a7edb985efec5ec2a",
+    "neural_23.npz": "84156d360a55e5d6923c0806a86f59206447537f9d7ae62d80907b97c25545ec",
+    "neural_47.npz": "d131856262e60fe6dbfaa8b927b1e2582de21ed6521de63cf4455dcb55279c2e"
+  },
+  "search_seconds": 90.88458919999994,
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "torch": "2.7.1+cu128",
+    "threads": 4
+  }
+}

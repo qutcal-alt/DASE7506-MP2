@@ -1,0 +1,102 @@
+[
+  {
+    "l2": 0.1,
+    "threshold": 0.0,
+    "cv": {
+      "correct": 4395,
+      "n": 4755,
+      "disagreement_correct": 1754,
+      "disagreement_n": 2114,
+      "minority_correct": 227,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 752,
+      "n": 798,
+      "disagreement_correct": 309,
+      "disagreement_n": 355,
+      "minority_correct": 39,
+      "minority_n": 60
+    }
+  },
+  {
+    "l2": 0.003,
+    "threshold": 1.0,
+    "cv": {
+      "correct": 4395,
+      "n": 4755,
+      "disagreement_correct": 1754,
+      "disagreement_n": 2114,
+      "minority_correct": 225,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 752,
+      "n": 798,
+      "disagreement_correct": 309,
+      "disagreement_n": 355,
+      "minority_correct": 37,
+      "minority_n": 60
+    }
+  },
+  {
+    "l2": 0.3,
+    "threshold": 0.0,
+    "cv": {
+      "correct": 4395,
+      "n": 4755,
+      "disagreement_correct": 1754,
+      "disagreement_n": 2114,
+      "minority_correct": 224,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 751,
+      "n": 798,
+      "disagreement_correct": 308,
+      "disagreement_n": 355,
+      "minority_correct": 39,
+      "minority_n": 60
+    }
+  },
+  {
+    "l2": 0.3,
+    "threshold": 1.0,
+    "cv": {
+      "correct": 4399,
+      "n": 4755,
+      "disagreement_correct": 1758,
+      "disagreement_n": 2114,
+      "minority_correct": 227,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 750,
+      "n": 798,
+      "disagreement_correct": 307,
+      "disagreement_n": 355,
+      "minority_correct": 37,
+      "minority_n": 60
+    }
+  },
+  {
+    "l2": 0.1,
+    "threshold": 1.0,
+    "cv": {
+      "correct": 4398,
+      "n": 4755,
+      "disagreement_correct": 1757,
+      "disagreement_n": 2114,
+      "minority_correct": 226,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 750,
+      "n": 798,
+      "disagreement_correct": 307,
+      "disagreement_n": 355,
+      "minority_correct": 38,
+      "minority_n": 60
+    }
+  }
+]

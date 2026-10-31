@@ -1,0 +1,102 @@
+[
+  {
+    "name": "relative_ce_l7_r160_w0.25_b0.5",
+    "spec": {
+      "name": "relative_ce_l7",
+      "block": "relative",
+      "loss": "ce",
+      "leaves": 7
+    },
+    "rounds": 160,
+    "reference_weight": 0.125,
+    "tree_weight": 0.125,
+    "cv": {
+      "correct": 4418,
+      "n": 4755,
+      "disagreement_correct": 1777,
+      "disagreement_n": 2114,
+      "minority_correct": 242,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "conditions_ce_l7_r160_w0.25_b0.75",
+    "spec": {
+      "name": "conditions_ce_l7",
+      "block": "conditions",
+      "loss": "ce",
+      "leaves": 7
+    },
+    "rounds": 160,
+    "reference_weight": 0.0625,
+    "tree_weight": 0.1875,
+    "cv": {
+      "correct": 4418,
+      "n": 4755,
+      "disagreement_correct": 1777,
+      "disagreement_n": 2114,
+      "minority_correct": 240,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "manual_ce_l7_r160_w0.25_b0.5",
+    "spec": {
+      "name": "manual_ce_l7",
+      "block": "manual",
+      "loss": "ce",
+      "leaves": 7
+    },
+    "rounds": 160,
+    "reference_weight": 0.125,
+    "tree_weight": 0.125,
+    "cv": {
+      "correct": 4417,
+      "n": 4755,
+      "disagreement_correct": 1776,
+      "disagreement_n": 2114,
+      "minority_correct": 240,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "manual_pair_l15_r20_w0.5_b0.25",
+    "spec": {
+      "name": "manual_pair_l15",
+      "block": "manual",
+      "loss": "pair",
+      "leaves": 15
+    },
+    "rounds": 20,
+    "reference_weight": 0.1875,
+    "tree_weight": 0.125,
+    "cv": {
+      "correct": 4417,
+      "n": 4755,
+      "disagreement_correct": 1776,
+      "disagreement_n": 2114,
+      "minority_correct": 234,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "relative_pair_l7_r160_w0.5_b1.0",
+    "spec": {
+      "name": "relative_pair_l7",
+      "block": "relative",
+      "loss": "pair",
+      "leaves": 7
+    },
+    "rounds": 160,
+    "reference_weight": 0.0,
+    "tree_weight": 0.5,
+    "cv": {
+      "correct": 4417,
+      "n": 4755,
+      "disagreement_correct": 1776,
+      "disagreement_n": 2114,
+      "minority_correct": 202,
+      "minority_n": 367
+    }
+  }
+]

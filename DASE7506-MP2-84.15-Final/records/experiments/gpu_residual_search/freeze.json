@@ -1,0 +1,59 @@
+{
+  "selected": {
+    "name": "w32_b10_e30_r0.25",
+    "spec": {
+      "name": "w32_b10",
+      "width": 32,
+      "drop": 0.3,
+      "bound": 1.0
+    },
+    "epoch": 30,
+    "residual_weight": 0.25,
+    "cv": {
+      "correct": 4413,
+      "n": 4755,
+      "disagreement_correct": 1772,
+      "disagreement_n": 2114,
+      "minority_correct": 239,
+      "minority_n": 367
+    },
+    "validation": {
+      "correct": 753,
+      "n": 798,
+      "disagreement_correct": 310,
+      "disagreement_n": 355,
+      "minority_correct": 37,
+      "minority_n": 60
+    }
+  },
+  "test_evaluated": false,
+  "search_seconds": 131.0426209999987,
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "scipy": "1.16.3",
+    "torch": "2.7.1+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070",
+    "peak_gpu_memory_MiB": 97.423828125
+  },
+  "source_hashes": {
+    "gpu_residual_submission.py": "5d8af43d31ba50452cfff30001014bfd5608e8241edda7c3be9a0648956245ab",
+    "gpu_residual_search.py": "237f405b24e031af456a482950acc536d150bf0e5ee9fce72ddfa9b046f54097",
+    "expression_features.py": "60cddf69e5ac3e5018364ad4c4d44d0cb1fb8c2be8b963085760e4c22cab7083",
+    "rich_features.py": "a5a76f19901a329fe23ebc72072a5957eb6918bab18f78f5510940da558503b3",
+    "baseline.py": "cd1eb68a345d62a83ba58eda6737accd9edb1e5e8145fdb147ab9d5151fb401f",
+    "features.py": "1fd55a399fb92076083386da05f101d0fd6c8b94372e5555f9fe294116b6052f",
+    "quantity_features.py": "a39036ea8e5981a136adb77fcd09f686db04e8844899ed66de198c43990d2a3c",
+    "arith.py": "b2ae6c30246d0c7fcad744e2698e90a7239ceb62dbcacbff13dd556850b8af39",
+    "training.py": "6225ff1c23a6df9f1ce00f00618f9fdf96634a675811d979d640e4ccddb0c9c8"
+  },
+  "asset_hashes": {
+    "anchor_base.npz": "fb7a5ccf0821267fd16d8313827c332ca359ea2e367496dfd61598416b00136d",
+    "anchor_expression.npz": "a680be467ead5e61415b54a673b2404a3bfa1320b384af1b4ce8b9f42337bdbb",
+    "config.json": "633bd55e44e4b654825c611efbe22e33f609877dfab7251dfcff551a267f26b3",
+    "residual_11.npz": "0b52392b1255858b8a3aee7d31220b43e965b8452e6e5f9c79ce1c0210189ecb",
+    "residual_23.npz": "dd4ade42e72129b515e583f23e614dbddbffbc16373f2f453f6f6f9ddabd882f",
+    "residual_47.npz": "defee22116365973f1bbf96c1d6dd7c912c8891d79aff75856cb7916f74de103"
+  }
+}

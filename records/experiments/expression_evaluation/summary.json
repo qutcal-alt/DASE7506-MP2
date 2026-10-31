@@ -1,0 +1,132 @@
+{
+  "scores": {
+    "validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 753,
+      "n": 798,
+      "accuracy": 94.3609022556391,
+      "scoring_seconds": 0.026382900001408416,
+      "fresh_prediction_process_seconds": 10.768310199999178,
+      "fresh_scoring_process_seconds": 0.19022880000011355,
+      "complete_cpu_seconds": 10.958538999999291
+    },
+    "test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 389,
+      "n": 467,
+      "accuracy": 83.29764453961457,
+      "scoring_seconds": 0.017551900000398746,
+      "fresh_prediction_process_seconds": 8.040734899999734,
+      "fresh_scoring_process_seconds": 0.18327850000059698,
+      "complete_cpu_seconds": 8.22401340000033
+    }
+  },
+  "freeze_sha256": "d3e3e00d7d700dfb9f069aee7aa437ea80389c3a120e99f2197fc48eb8018f88",
+  "protected_official_hashes": {
+    "code/README.md": true,
+    "code/check_data.py": true,
+    "code/common.py": true,
+    "code/data/LICENSE.txt": true,
+    "code/data/NOTICE.txt": true,
+    "code/data/candidates/gsm8k_test.jsonl": true,
+    "code/data/candidates/gsm8k_test.npz": true,
+    "code/data/candidates/gsm8k_train.jsonl": true,
+    "code/data/candidates/gsm8k_train.npz": true,
+    "code/data/candidates/gsm8k_validation.jsonl": true,
+    "code/data/candidates/gsm8k_validation.npz": true,
+    "code/data/gsm8k_test.jsonl": true,
+    "code/data/gsm8k_train.jsonl": true,
+    "code/data/gsm8k_validation.jsonl": true,
+    "code/data/manifest.json": true,
+    "code/predict.py": true,
+    "code/requirements.txt": true,
+    "code/score_predictions.py": true,
+    "guide/GUIDE.md": true
+  },
+  "checkpoint_uncompressed_bytes": 61716,
+  "checkpoint_path": "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_frozen",
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "threads": 4
+  },
+  "evaluated_at_beijing": "2026-10-31T17:19:26.094725+08:00",
+  "processes": [
+    {
+      "step": "check-data",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "check_data.py"
+      ],
+      "wall_seconds": 0.9155401999996684,
+      "exit_code": 0
+    },
+    {
+      "step": "validation-predict",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "predict.py",
+        "--method",
+        "expression_submission.py",
+        "--checkpoint",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_frozen",
+        "--split",
+        "validation",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_evaluation\\validation-predictions.json"
+      ],
+      "wall_seconds": 10.768310199999178,
+      "exit_code": 0
+    },
+    {
+      "step": "validation-score",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "validation",
+        "--predictions",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_evaluation\\validation-predictions.json",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_evaluation\\validation-score.json"
+      ],
+      "wall_seconds": 0.19022880000011355,
+      "exit_code": 0
+    },
+    {
+      "step": "test-predict",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "predict.py",
+        "--method",
+        "expression_submission.py",
+        "--checkpoint",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_frozen",
+        "--split",
+        "test",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_evaluation\\test-predictions.json"
+      ],
+      "wall_seconds": 8.040734899999734,
+      "exit_code": 0
+    },
+    {
+      "step": "test-score",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "test",
+        "--predictions",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_evaluation\\test-predictions.json",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-graph\\code\\runs\\expression_evaluation\\test-score.json"
+      ],
+      "wall_seconds": 0.18327850000059698,
+      "exit_code": 0
+    }
+  ]
+}

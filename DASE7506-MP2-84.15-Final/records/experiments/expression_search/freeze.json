@@ -1,0 +1,62 @@
+{
+  "selected": {
+    "name": "expression_06_base0.75",
+    "key": "expression_06",
+    "spec": {
+      "relative": true,
+      "l2": 0.012,
+      "penalty_ratio": 1.0
+    },
+    "base_weight": 0.75,
+    "cv": {
+      "mean_correct": 1767.5,
+      "min_correct": 1767,
+      "mean_minority": 233.5,
+      "by_fold_assignment": [
+        {
+          "correct": 4408,
+          "n": 4755,
+          "disagreement_correct": 1767,
+          "disagreement_n": 2114,
+          "minority_correct": 234,
+          "minority_n": 367
+        },
+        {
+          "correct": 4409,
+          "n": 4755,
+          "disagreement_correct": 1768,
+          "disagreement_n": 2114,
+          "minority_correct": 233,
+          "minority_n": 367
+        }
+      ]
+    },
+    "validation": {
+      "correct": 753,
+      "n": 798,
+      "disagreement_correct": 310,
+      "disagreement_n": 355,
+      "minority_correct": 38,
+      "minority_n": 60
+    }
+  },
+  "test_evaluated": false,
+  "search_seconds": 133.7895406000007,
+  "source_hashes": {
+    "expression_submission.py": "5b85157723ce9096880cc7f3d7339cadd480c495178a460b918822e63c333a54",
+    "expression_search.py": "043ea390a18833f7d8de6bd489df034fa7effe9ec60f9176ae36cd87367c8081",
+    "expression_features.py": "60cddf69e5ac3e5018364ad4c4d44d0cb1fb8c2be8b963085760e4c22cab7083",
+    "baseline.py": "cd1eb68a345d62a83ba58eda6737accd9edb1e5e8145fdb147ab9d5151fb401f",
+    "rich_features.py": "a5a76f19901a329fe23ebc72072a5957eb6918bab18f78f5510940da558503b3",
+    "features.py": "1fd55a399fb92076083386da05f101d0fd6c8b94372e5555f9fe294116b6052f",
+    "quantity_features.py": "a39036ea8e5981a136adb77fcd09f686db04e8844899ed66de198c43990d2a3c",
+    "arith.py": "b2ae6c30246d0c7fcad744e2698e90a7239ceb62dbcacbff13dd556850b8af39",
+    "training.py": "6225ff1c23a6df9f1ce00f00618f9fdf96634a675811d979d640e4ccddb0c9c8",
+    "search.py": "db42d15fb9b3d903d5dc7b3f18fdb83ab7e8b5d5888d9ca318c1f043c54aa45d"
+  },
+  "asset_hashes": {
+    "base.npz": "fb7a5ccf0821267fd16d8313827c332ca359ea2e367496dfd61598416b00136d",
+    "config.json": "ff9986ba423e1b95a7ccc7f5321d029d0bfbf0677517e609690a0e5747371ec2",
+    "expression.npz": "a680be467ead5e61415b54a673b2404a3bfa1320b384af1b4ce8b9f42337bdbb"
+  }
+}

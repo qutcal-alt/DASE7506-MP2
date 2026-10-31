@@ -1,0 +1,72 @@
+[
+  {
+    "name": "a0.25_w0.25_logit",
+    "strength": 0.25,
+    "weight": 0.25,
+    "mode": "logit",
+    "cv": {
+      "correct": 4420,
+      "n": 4755,
+      "disagreement_correct": 1779,
+      "disagreement_n": 2114,
+      "minority_correct": 242,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "a0.25_w0.25_probability",
+    "strength": 0.25,
+    "weight": 0.25,
+    "mode": "probability",
+    "cv": {
+      "correct": 4420,
+      "n": 4755,
+      "disagreement_correct": 1779,
+      "disagreement_n": 2114,
+      "minority_correct": 242,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "a0.25_w0.5_logit",
+    "strength": 0.25,
+    "weight": 0.5,
+    "mode": "logit",
+    "cv": {
+      "correct": 4418,
+      "n": 4755,
+      "disagreement_correct": 1777,
+      "disagreement_n": 2114,
+      "minority_correct": 241,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "a0.25_w0.5_probability",
+    "strength": 0.25,
+    "weight": 0.5,
+    "mode": "probability",
+    "cv": {
+      "correct": 4418,
+      "n": 4755,
+      "disagreement_correct": 1777,
+      "disagreement_n": 2114,
+      "minority_correct": 241,
+      "minority_n": 367
+    }
+  },
+  {
+    "name": "a0.5_w0.25_logit",
+    "strength": 0.5,
+    "weight": 0.25,
+    "mode": "logit",
+    "cv": {
+      "correct": 4418,
+      "n": 4755,
+      "disagreement_correct": 1777,
+      "disagreement_n": 2114,
+      "minority_correct": 241,
+      "minority_n": 367
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "name": "graph_20_base0.5",
+    "key": "graph_20",
+    "spec": {
+      "block": "graph",
+      "relative": false,
+      "l2": 0.012,
+      "penalty_ratio": 1.0
+    },
+    "base_weight": 0.5,
+    "cv": {
+      "mean_correct": 1764.0,
+      "min_correct": 1758,
+      "mean_minority": 228.0,
+      "by_fold_assignment": [
+        {
+          "correct": 4411,
+          "n": 4755,
+          "disagreement_correct": 1770,
+          "disagreement_n": 2114,
+          "minority_correct": 229,
+          "minority_n": 367
+        },
+        {
+          "correct": 4399,
+          "n": 4755,
+          "disagreement_correct": 1758,
+          "disagreement_n": 2114,
+          "minority_correct": 227,
+          "minority_n": 367
+        }
+      ]
+    }
+  },
+  {
+    "name": "graph_05_base0.5",
+    "key": "graph_05",
+    "spec": {
+      "block": "graph",
+      "relative": true,
+      "l2": 0.012,
+      "penalty_ratio": 4.0
+    },
+    "base_weight": 0.5,
+    "cv": {
+      "mean_correct": 1763.5,
+      "min_correct": 1760,
+      "mean_minority": 230.0,
+      "by_fold_assignment": [
+        {
+          "correct": 4408,
+          "n": 4755,
+          "disagreement_correct": 1767,
+          "disagreement_n": 2114,
+          "minority_correct": 231,
+          "minority_n": 367
+        },
+        {
+          "correct": 4401,
+          "n": 4755,
+          "disagreement_correct": 1760,
+          "disagreement_n": 2114,
+          "minority_correct": 229,
+          "minority_n": 367
+        }
+      ]
+    }
+  },
+  {
+    "name": "graph_17_base0.5",
+    "key": "graph_17",
+    "spec": {
+      "block": "both",
+      "relative": true,
+      "l2": 0.012,
+      "penalty_ratio": 4.0
+    },
+    "base_weight": 0.5,
+    "cv": {
+      "mean_correct": 1762.0,
+      "min_correct": 1759,
+      "mean_minority": 228.5,
+      "by_fold_assignment": [
+        {
+          "correct": 4406,
+          "n": 4755,
+          "disagreement_correct": 1765,
+          "disagreement_n": 2114,
+          "minority_correct": 227,
+          "minority_n": 367
+        },
+        {
+          "correct": 4400,
+          "n": 4755,
+          "disagreement_correct": 1759,
+          "disagreement_n": 2114,
+          "minority_correct": 230,
+          "minority_n": 367
+        }
+      ]
+    }
+  },
+  {
+    "name": "graph_04_base0.5",
+    "key": "graph_04",
+    "spec": {
+      "block": "graph",
+      "relative": true,
+      "l2": 0.012,
+      "penalty_ratio": 1.0
+    },
+    "base_weight": 0.5,
+    "cv": {
+      "mean_correct": 1762.0,
+      "min_correct": 1758,
+      "mean_minority": 228.5,
+      "by_fold_assignment": [
+        {
+          "correct": 4407,
+          "n": 4755,
+          "disagreement_correct": 1766,
+          "disagreement_n": 2114,
+          "minority_correct": 231,
+          "minority_n": 367
+        },
+        {
+          "correct": 4399,
+          "n": 4755,
+          "disagreement_correct": 1758,
+          "disagreement_n": 2114,
+          "minority_correct": 226,
+          "minority_n": 367
+        }
+      ]
+    }
+  },
+  {
+    "name": "graph_05_base0.25",
+    "key": "graph_05",
+    "spec": {
+      "block": "graph",
+      "relative": true,
+      "l2": 0.012,
+      "penalty_ratio": 4.0
+    },
+    "base_weight": 0.25,
+    "cv": {
+      "mean_correct": 1762.0,
+      "min_correct": 1756,
+      "mean_minority": 228.0,
+      "by_fold_assignment": [
+        {
+          "correct": 4409,
+          "n": 4755,
+          "disagreement_correct": 1768,
+          "disagreement_n": 2114,
+          "minority_correct": 229,
+          "minority_n": 367
+        },
+        {
+          "correct": 4397,
+          "n": 4755,
+          "disagreement_correct": 1756,
+          "disagreement_n": 2114,
+          "minority_correct": 227,
+          "minority_n": 367
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "source_hashes": {
+    "training.py": "6225ff1c23a6df9f1ce00f00618f9fdf96634a675811d979d640e4ccddb0c9c8",
+    "baseline.py": "cd1eb68a345d62a83ba58eda6737accd9edb1e5e8145fdb147ab9d5151fb401f",
+    "features.py": "1fd55a399fb92076083386da05f101d0fd6c8b94372e5555f9fe294116b6052f",
+    "quantity_features.py": "a39036ea8e5981a136adb77fcd09f686db04e8844899ed66de198c43990d2a3c",
+    "arith.py": "b2ae6c30246d0c7fcad744e2698e90a7239ceb62dbcacbff13dd556850b8af39",
+    "rich_features.py": "a5a76f19901a329fe23ebc72072a5957eb6918bab18f78f5510940da558503b3",
+    "expression_features.py": "60cddf69e5ac3e5018364ad4c4d44d0cb1fb8c2be8b963085760e4c22cab7083",
+    "gpu_residual_submission.py": "5d8af43d31ba50452cfff30001014bfd5608e8241edda7c3be9a0648956245ab",
+    "gpu_residual_search.py": "237f405b24e031af456a482950acc536d150bf0e5ee9fce72ddfa9b046f54097",
+    "prepare_correction_cache.py": "8b7614f6ebfc66c393e76a66d2384a8d004ae264c88ff4b976ce31caf7a70c41"
+  },
+  "input_hashes": {
+    "gsm8k_train.jsonl": "acc662ed0328b5d38b2dee6f72ddcc956073df4ffb2ef4c4ba668cf445a92003",
+    "gsm8k_validation.jsonl": "ae1522df02497e780909e208ffb4101788e97b4a5eabf883c56bb7fe40d13025",
+    "candidates/gsm8k_train.jsonl": "38fa2e71c030ae301e6a87366e0700453a56d14abe73f2d14504b9cd0749ed43",
+    "candidates/gsm8k_train.npz": "3bb3d5dcbc71dc64e671c03f965594f91e195acd2be01012476d8b966a6ba1d2",
+    "candidates/gsm8k_validation.jsonl": "f2ca7c7c7effa91e6a2e99c597ae13b9369d776f0c08d68622e8671b8229045a",
+    "candidates/gsm8k_validation.npz": "a0c6c8e1919bf7e7ffe887b39954e0c905bbd4429b05135fe3fc9f4087a2c881"
+  },
+  "files": {
+    "train.npz": "3e9e4cc52016fc7f3486df6bd38299756f51c6dbf98f088d5f6aa9e81a2409f1",
+    "validation.npz": "a643f939568c278a418c7ccd5d71972d15b6478887a4e222b2f1360e954ee941"
+  },
+  "seconds": 68.36942500000077,
+  "reference_oof": {
+    "correct": 4413,
+    "n": 4755,
+    "disagreement_correct": 1772,
+    "disagreement_n": 2114,
+    "minority_correct": 239,
+    "minority_n": 367
+  },
+  "reference_validation": {
+    "correct": 753,
+    "n": 798,
+    "disagreement_correct": 310,
+    "disagreement_n": 355,
+    "minority_correct": 37,
+    "minority_n": 60
+  }
+}

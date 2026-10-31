@@ -1,0 +1,56 @@
+{
+  "specs": [
+    {
+      "name": "words_0.0001",
+      "mode": "words",
+      "l2": 0.0001
+    },
+    {
+      "name": "words_0.0003",
+      "mode": "words",
+      "l2": 0.0003
+    },
+    {
+      "name": "words_0.001",
+      "mode": "words",
+      "l2": 0.001
+    },
+    {
+      "name": "words_0.003",
+      "mode": "words",
+      "l2": 0.003
+    },
+    {
+      "name": "phrases_0.0001",
+      "mode": "phrases",
+      "l2": 0.0001
+    },
+    {
+      "name": "phrases_0.0003",
+      "mode": "phrases",
+      "l2": 0.0003
+    },
+    {
+      "name": "phrases_0.001",
+      "mode": "phrases",
+      "l2": 0.001
+    },
+    {
+      "name": "phrases_0.003",
+      "mode": "phrases",
+      "l2": 0.003
+    }
+  ],
+  "max_features": 6000,
+  "min_document_frequency": 12,
+  "beta": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "new_validation_finalists": 5,
+  "reference_also_compared": true,
+  "test_references_used": false
+}

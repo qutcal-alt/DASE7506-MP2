@@ -1,0 +1,30 @@
+{
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "splits": {
+    "train": {
+      "questions": 4755,
+      "embedding_shape": [
+        4755,
+        4,
+        1024
+      ]
+    },
+    "validation": {
+      "questions": 798,
+      "embedding_shape": [
+        798,
+        4,
+        1024
+      ]
+    },
+    "test": {
+      "questions": 467,
+      "embedding_shape": [
+        467,
+        4,
+        1024
+      ]
+    }
+  },
+  "status": "passed"
+}

@@ -1,0 +1,22 @@
+{
+  "temperatures": [
+    0.125,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "penalties": [
+    0.0,
+    0.5,
+    1.0,
+    1.5
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "new_validation_finalists": 5,
+  "reference_also_compared": true,
+  "test_references_used": false
+}

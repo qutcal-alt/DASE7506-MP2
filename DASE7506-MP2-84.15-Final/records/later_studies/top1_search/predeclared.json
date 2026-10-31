@@ -1,0 +1,58 @@
+{
+  "specs": [
+    {
+      "name": "bestpair_l7",
+      "loss": "bestpair",
+      "leaves": 7
+    },
+    {
+      "name": "bestpair_l15",
+      "loss": "bestpair",
+      "leaves": 15
+    },
+    {
+      "name": "hinge05_l7",
+      "loss": "hinge05",
+      "leaves": 7
+    },
+    {
+      "name": "hinge05_l15",
+      "loss": "hinge05",
+      "leaves": 15
+    },
+    {
+      "name": "hinge1_l7",
+      "loss": "hinge1",
+      "leaves": 7
+    },
+    {
+      "name": "hinge1_l15",
+      "loss": "hinge1",
+      "leaves": 15
+    }
+  ],
+  "seeds": [
+    73,
+    101,
+    137
+  ],
+  "rounds": [
+    20,
+    60,
+    160
+  ],
+  "correction_weights": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "blend": [
+    0.125,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "validation_finalists": 5,
+  "reference_also_compared": true,
+  "test_references_used": false
+}

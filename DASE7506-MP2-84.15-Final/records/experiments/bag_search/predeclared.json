@@ -1,0 +1,41 @@
+{
+  "recipes": [
+    {
+      "name": "fullbase50_graphbag50",
+      "anchor": "full",
+      "weight": 0.5
+    },
+    {
+      "name": "fullbase25_graphbag75",
+      "anchor": "full",
+      "weight": 0.25
+    },
+    {
+      "name": "fullbase75_graphbag25",
+      "anchor": "full",
+      "weight": 0.75
+    },
+    {
+      "name": "bagbase50_graphbag50",
+      "anchor": "bag",
+      "weight": 0.5
+    },
+    {
+      "name": "bagbase25_graphbag75",
+      "anchor": "bag",
+      "weight": 0.25
+    },
+    {
+      "name": "graphbag_only",
+      "anchor": "full",
+      "weight": 0.0
+    }
+  ],
+  "graph_spec": {
+    "block": "graph",
+    "relative": true,
+    "l2": 0.012,
+    "penalty_ratio": 4.0
+  },
+  "explanation": "OOF estimates average the two independently held-out predictions per row; deployment averages all six training-fold members."
+}

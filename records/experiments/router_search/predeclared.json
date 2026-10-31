@@ -1,0 +1,23 @@
+{
+  "regularisation": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "thresholds": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "experts": [
+    "83.08 baseline",
+    "82.87 legacy",
+    "graph_05"
+  ],
+  "nested_inner_folds": 2,
+  "outer_folds": 3,
+  "validation_finalists": 5,
+  "test_references_used": false
+}

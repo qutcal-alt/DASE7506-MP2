@@ -1,0 +1,187 @@
+{
+  "scores": {
+    "validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 755,
+      "n": 798,
+      "accuracy": 94.61152882205513,
+      "scoring_seconds": 0.02631219999966561,
+      "prediction_process_seconds": 12.78463180000108,
+      "scoring_process_seconds": 0.19105130000025383,
+      "complete_cpu_seconds": 12.975683100001334
+    },
+    "test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 393,
+      "n": 467,
+      "accuracy": 84.1541755888651,
+      "scoring_seconds": 0.017107200001191813,
+      "prediction_process_seconds": 9.125715399997716,
+      "scoring_process_seconds": 0.18194260000018403,
+      "complete_cpu_seconds": 9.3076579999979
+    }
+  },
+  "assets": {
+    "anchor_base.npz": {
+      "bytes": 30394,
+      "sha256": "fb7a5ccf0821267fd16d8313827c332ca359ea2e367496dfd61598416b00136d"
+    },
+    "anchor_expression.npz": {
+      "bytes": 31978,
+      "sha256": "a680be467ead5e61415b54a673b2404a3bfa1320b384af1b4ce8b9f42337bdbb"
+    },
+    "config.json": {
+      "bytes": 777,
+      "sha256": "a90478d6554173169e5a638192cfedf667c3705db3699bcc5a82050373417ac5"
+    },
+    "original_trees.npz": {
+      "bytes": 60618,
+      "sha256": "6e13b24face006a22097f757ee798c420b013f3fb811a60448641fbd26c65aba"
+    },
+    "residual_11.npz": {
+      "bytes": 43098,
+      "sha256": "0b52392b1255858b8a3aee7d31220b43e965b8452e6e5f9c79ce1c0210189ecb"
+    },
+    "residual_23.npz": {
+      "bytes": 43098,
+      "sha256": "dd4ade42e72129b515e583f23e614dbddbffbc16373f2f453f6f6f9ddabd882f"
+    },
+    "residual_47.npz": {
+      "bytes": 43098,
+      "sha256": "defee22116365973f1bbf96c1d6dd7c912c8891d79aff75856cb7916f74de103"
+    },
+    "trees_101.npz": {
+      "bytes": 132298,
+      "sha256": "dfa528b1681c0e55e98ca88267aba600b2f99bfef028912c70718c6da79133df"
+    },
+    "trees_137.npz": {
+      "bytes": 132298,
+      "sha256": "158416efd207b6d410280640febb6513d9073aeffc9cde00e5120de7cd13b0be"
+    },
+    "trees_73.npz": {
+      "bytes": 132298,
+      "sha256": "fc00148f705fa39273d9fbe42006e3acf65bb6a5e52196e6363b92ca070c0d4e"
+    }
+  },
+  "uncompressed_inference_bytes": 643525,
+  "official_file_hash_checks": {
+    "code/README.md": true,
+    "code/check_data.py": true,
+    "code/common.py": true,
+    "code/data/LICENSE.txt": true,
+    "code/data/NOTICE.txt": true,
+    "code/data/candidates/gsm8k_test.jsonl": true,
+    "code/data/candidates/gsm8k_test.npz": true,
+    "code/data/candidates/gsm8k_train.jsonl": true,
+    "code/data/candidates/gsm8k_train.npz": true,
+    "code/data/candidates/gsm8k_validation.jsonl": true,
+    "code/data/candidates/gsm8k_validation.npz": true,
+    "code/data/gsm8k_test.jsonl": true,
+    "code/data/gsm8k_train.jsonl": true,
+    "code/data/gsm8k_validation.jsonl": true,
+    "code/data/manifest.json": true,
+    "code/predict.py": true,
+    "code/requirements.txt": true,
+    "code/score_predictions.py": true,
+    "guide/GUIDE.md": true
+  },
+  "processes": [
+    {
+      "step": "check-data",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "check_data.py"
+      ],
+      "wall_seconds": 0.904668799998035,
+      "exit_code": 0
+    },
+    {
+      "step": "validation-predict",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "predict.py",
+        "--method",
+        "submission.py",
+        "--checkpoint",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\model_bundle",
+        "--split",
+        "validation",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\reproduction\\validation-predictions.json"
+      ],
+      "wall_seconds": 12.78463180000108,
+      "exit_code": 0
+    },
+    {
+      "step": "validation-score",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "validation",
+        "--predictions",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\reproduction\\validation-predictions.json",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\reproduction\\validation-score.json"
+      ],
+      "wall_seconds": 0.19105130000025383,
+      "exit_code": 0
+    },
+    {
+      "step": "test-predict",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "predict.py",
+        "--method",
+        "submission.py",
+        "--checkpoint",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\model_bundle",
+        "--split",
+        "test",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\reproduction\\test-predictions.json"
+      ],
+      "wall_seconds": 9.125715399997716,
+      "exit_code": 0
+    },
+    {
+      "step": "test-score",
+      "command": [
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\MP2-reproduced\\.venv-eval\\Scripts\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "test",
+        "--predictions",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\reproduction\\test-predictions.json",
+        "--output",
+        "C:\\Users\\admin\\Desktop\\学习\\7506\\code\\DASE7506-MP2-84.15-Final\\code\\runs\\reproduction\\test-score.json"
+      ],
+      "wall_seconds": 0.18194260000018403,
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "submission.py": "88331ecfefcf52f7498933e38dec496bfad0ca9b32c8d5791bd1d1d9fec118ed",
+    "order_submission.py": "c87c66883d38ed3df2e30b629bebf08e23a42095aab0e53daacac7fa7c6c816a",
+    "baseline.py": "cd1eb68a345d62a83ba58eda6737accd9edb1e5e8145fdb147ab9d5151fb401f",
+    "features.py": "1fd55a399fb92076083386da05f101d0fd6c8b94372e5555f9fe294116b6052f",
+    "arith.py": "b2ae6c30246d0c7fcad744e2698e90a7239ceb62dbcacbff13dd556850b8af39",
+    "quantity_features.py": "a39036ea8e5981a136adb77fcd09f686db04e8844899ed66de198c43990d2a3c",
+    "rich_features.py": "a5a76f19901a329fe23ebc72072a5957eb6918bab18f78f5510940da558503b3",
+    "expression_features.py": "60cddf69e5ac3e5018364ad4c4d44d0cb1fb8c2be8b963085760e4c22cab7083",
+    "gpu_residual_submission.py": "5d8af43d31ba50452cfff30001014bfd5608e8241edda7c3be9a0648956245ab",
+    "tree_correction_submission.py": "32c5bf4f71ebbdab0f52bca507b72c56439f88ca3e1f184060846cbcbc8cfd08",
+    "model_training.py": "b8802f17636a06931e743b25ce3a098807bdb3afa6459cc76d537b0fe38368bf",
+    "training.py": "6225ff1c23a6df9f1ce00f00618f9fdf96634a675811d979d640e4ccddb0c9c8",
+    "train_export.py": "326aa504422b5d9a072df3a8e82d3cd5efe74a6b30861e78ba20050a1e2386d8"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "threads": 4,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "local_cpu": "Intel(R) Core(TM) Ultra 5 250K Plus"
+  }
+}

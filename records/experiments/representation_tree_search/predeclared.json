@@ -1,0 +1,101 @@
+{
+  "specs": [
+    {
+      "name": "p0_ce_l7",
+      "components": 0,
+      "loss": "ce",
+      "leaves": 7
+    },
+    {
+      "name": "p0_ce_l15",
+      "components": 0,
+      "loss": "ce",
+      "leaves": 15
+    },
+    {
+      "name": "p0_mass_l7",
+      "components": 0,
+      "loss": "mass",
+      "leaves": 7
+    },
+    {
+      "name": "p0_mass_l15",
+      "components": 0,
+      "loss": "mass",
+      "leaves": 15
+    },
+    {
+      "name": "p32_ce_l7",
+      "components": 32,
+      "loss": "ce",
+      "leaves": 7
+    },
+    {
+      "name": "p32_ce_l15",
+      "components": 32,
+      "loss": "ce",
+      "leaves": 15
+    },
+    {
+      "name": "p32_mass_l7",
+      "components": 32,
+      "loss": "mass",
+      "leaves": 7
+    },
+    {
+      "name": "p32_mass_l15",
+      "components": 32,
+      "loss": "mass",
+      "leaves": 15
+    },
+    {
+      "name": "p64_ce_l7",
+      "components": 64,
+      "loss": "ce",
+      "leaves": 7
+    },
+    {
+      "name": "p64_ce_l15",
+      "components": 64,
+      "loss": "ce",
+      "leaves": 15
+    },
+    {
+      "name": "p64_mass_l7",
+      "components": 64,
+      "loss": "mass",
+      "leaves": 7
+    },
+    {
+      "name": "p64_mass_l15",
+      "components": 64,
+      "loss": "mass",
+      "leaves": 15
+    }
+  ],
+  "seeds": [
+    73,
+    101,
+    137
+  ],
+  "rounds": [
+    20,
+    60,
+    160
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "beta": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "new_validation_finalists": 5,
+  "reference_also_compared": true,
+  "projection_train_only": true,
+  "test_references_used": false
+}

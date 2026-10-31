@@ -1,0 +1,59 @@
+{
+  "specs": [
+    {
+      "relative": false,
+      "l2": 0.006,
+      "penalty_ratio": 1.0
+    },
+    {
+      "relative": false,
+      "l2": 0.006,
+      "penalty_ratio": 4.0
+    },
+    {
+      "relative": false,
+      "l2": 0.012,
+      "penalty_ratio": 1.0
+    },
+    {
+      "relative": false,
+      "l2": 0.012,
+      "penalty_ratio": 4.0
+    },
+    {
+      "relative": true,
+      "l2": 0.006,
+      "penalty_ratio": 1.0
+    },
+    {
+      "relative": true,
+      "l2": 0.006,
+      "penalty_ratio": 4.0
+    },
+    {
+      "relative": true,
+      "l2": 0.012,
+      "penalty_ratio": 1.0
+    },
+    {
+      "relative": true,
+      "l2": 0.012,
+      "penalty_ratio": 4.0
+    },
+    {
+      "relative": false,
+      "l2": 0.003,
+      "penalty_ratio": 4.0
+    },
+    {
+      "relative": true,
+      "l2": 0.003,
+      "penalty_ratio": 4.0
+    }
+  ],
+  "fold_assignments": 2,
+  "validation_finalists": 5,
+  "max_question_quantities": 5,
+  "dp_states_per_subset": 128,
+  "test_references_used": false
+}
