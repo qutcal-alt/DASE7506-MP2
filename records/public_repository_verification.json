@@ -1,0 +1,152 @@
+{
+  "repository": "https://github.com/qutcal-alt/DASE7506-MP2",
+  "private": false,
+  "anonymous_access": true,
+  "branch": "main",
+  "commit": "d6b6c2a1e904103aa12f5474be20e2dc6fb8c112",
+  "protected_official_files": {
+    "code/README.md": true,
+    "code/check_data.py": true,
+    "code/common.py": true,
+    "code/data/LICENSE.txt": true,
+    "code/data/NOTICE.txt": true,
+    "code/data/candidates/gsm8k_test.jsonl": true,
+    "code/data/candidates/gsm8k_test.npz": true,
+    "code/data/candidates/gsm8k_train.jsonl": true,
+    "code/data/candidates/gsm8k_train.npz": true,
+    "code/data/candidates/gsm8k_validation.jsonl": true,
+    "code/data/candidates/gsm8k_validation.npz": true,
+    "code/data/gsm8k_test.jsonl": true,
+    "code/data/gsm8k_train.jsonl": true,
+    "code/data/gsm8k_validation.jsonl": true,
+    "code/data/manifest.json": true,
+    "code/predict.py": true,
+    "code/requirements.txt": true,
+    "code/score_predictions.py": true,
+    "guide/GUIDE.md": true
+  },
+  "inference_sources": {
+    "submission.py": false,
+    "order_submission.py": true,
+    "baseline.py": true,
+    "features.py": true,
+    "arith.py": true,
+    "quantity_features.py": true,
+    "rich_features.py": true,
+    "expression_features.py": true,
+    "gpu_residual_submission.py": true,
+    "tree_correction_submission.py": true
+  },
+  "historical_source_snapshots": {
+    "order_search.py": true,
+    "order_submission.py": true,
+    "tree_bagging_search.py": true,
+    "tree_correction_search.py": true,
+    "tree_correction_submission.py": true,
+    "gpu_residual_search.py": true,
+    "gpu_residual_submission.py": true,
+    "training.py": true,
+    "expression_features.py": true,
+    "rich_features.py": true,
+    "baseline.py": true,
+    "features.py": true,
+    "quantity_features.py": true,
+    "arith.py": true
+  },
+  "source_differences": {
+    "submission.py": {
+      "remote_sha256": "9baa2a9cf334a48e894f35f507f7a81617218bf1f3bbca7561f28bcfe559c35c",
+      "local_sha256": "88331ecfefcf52f7498933e38dec496bfad0ca9b32c8d5791bd1d1d9fec118ed",
+      "remote_bytes": 94,
+      "local_bytes": 96,
+      "identical_after_newline_normalization": true
+    }
+  },
+  "checkpoint_assets": {
+    "anchor_base.npz": {
+      "sha256": "fb7a5ccf0821267fd16d8313827c332ca359ea2e367496dfd61598416b00136d",
+      "expected_sha256": "fb7a5ccf0821267fd16d8313827c332ca359ea2e367496dfd61598416b00136d",
+      "matches": true,
+      "downloaded_bytes": 30394,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/anchor_base.npz",
+      "identical_after_newline_normalization": false
+    },
+    "anchor_expression.npz": {
+      "sha256": "a680be467ead5e61415b54a673b2404a3bfa1320b384af1b4ce8b9f42337bdbb",
+      "expected_sha256": "a680be467ead5e61415b54a673b2404a3bfa1320b384af1b4ce8b9f42337bdbb",
+      "matches": true,
+      "downloaded_bytes": 31978,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/anchor_expression.npz",
+      "identical_after_newline_normalization": false
+    },
+    "config.json": {
+      "sha256": "36de442c068befc3f8832217390d3e25c96f5fc69ad3e95f983de5a34bb645fb",
+      "expected_sha256": "a90478d6554173169e5a638192cfedf667c3705db3699bcc5a82050373417ac5",
+      "matches": false,
+      "downloaded_bytes": 738,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/config.json",
+      "identical_after_newline_normalization": true
+    },
+    "original_trees.npz": {
+      "sha256": "6e13b24face006a22097f757ee798c420b013f3fb811a60448641fbd26c65aba",
+      "expected_sha256": "6e13b24face006a22097f757ee798c420b013f3fb811a60448641fbd26c65aba",
+      "matches": true,
+      "downloaded_bytes": 60618,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/original_trees.npz",
+      "identical_after_newline_normalization": false
+    },
+    "residual_11.npz": {
+      "sha256": "0b52392b1255858b8a3aee7d31220b43e965b8452e6e5f9c79ce1c0210189ecb",
+      "expected_sha256": "0b52392b1255858b8a3aee7d31220b43e965b8452e6e5f9c79ce1c0210189ecb",
+      "matches": true,
+      "downloaded_bytes": 43098,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/residual_11.npz",
+      "identical_after_newline_normalization": false
+    },
+    "residual_23.npz": {
+      "sha256": "dd4ade42e72129b515e583f23e614dbddbffbc16373f2f453f6f6f9ddabd882f",
+      "expected_sha256": "dd4ade42e72129b515e583f23e614dbddbffbc16373f2f453f6f6f9ddabd882f",
+      "matches": true,
+      "downloaded_bytes": 43098,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/residual_23.npz",
+      "identical_after_newline_normalization": false
+    },
+    "residual_47.npz": {
+      "sha256": "defee22116365973f1bbf96c1d6dd7c912c8891d79aff75856cb7916f74de103",
+      "expected_sha256": "defee22116365973f1bbf96c1d6dd7c912c8891d79aff75856cb7916f74de103",
+      "matches": true,
+      "downloaded_bytes": 43098,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/residual_47.npz",
+      "identical_after_newline_normalization": false
+    },
+    "trees_101.npz": {
+      "sha256": "dfa528b1681c0e55e98ca88267aba600b2f99bfef028912c70718c6da79133df",
+      "expected_sha256": "dfa528b1681c0e55e98ca88267aba600b2f99bfef028912c70718c6da79133df",
+      "matches": true,
+      "downloaded_bytes": 132298,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/trees_101.npz",
+      "identical_after_newline_normalization": false
+    },
+    "trees_137.npz": {
+      "sha256": "158416efd207b6d410280640febb6513d9073aeffc9cde00e5120de7cd13b0be",
+      "expected_sha256": "158416efd207b6d410280640febb6513d9073aeffc9cde00e5120de7cd13b0be",
+      "matches": true,
+      "downloaded_bytes": 132298,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/trees_137.npz",
+      "identical_after_newline_normalization": false
+    },
+    "trees_73.npz": {
+      "sha256": "fc00148f705fa39273d9fbe42006e3acf65bb6a5e52196e6363b92ca070c0d4e",
+      "expected_sha256": "fc00148f705fa39273d9fbe42006e3acf65bb6a5e52196e6363b92ca070c0d4e",
+      "matches": true,
+      "downloaded_bytes": 132298,
+      "url": "https://raw.githubusercontent.com/qutcal-alt/DASE7506-MP2/d6b6c2a1e904103aa12f5474be20e2dc6fb8c112/code/runs/model_bundle/trees_73.npz",
+      "identical_after_newline_normalization": false
+    }
+  },
+  "all_weights_match": false,
+  "npz_weights_match": true,
+  "inference_content_match": true,
+  "remote_readme_matches_local": false,
+  "remote_file_count": 602
+}

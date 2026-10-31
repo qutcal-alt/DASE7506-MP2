@@ -1,10 +1,30 @@
 # DASE7506 MP2 独立交付版
 
-固定方法的官方 test 成绩为 **393/467 = 84.1541755888651%**，validation 为 **755/798**。
+固定方法的官方 test 成绩为 **393/467 = 84.1542%**，validation 为 **755/798 = 94.6115%**。
 本目录只提供这一版的推理权重与固定训练配方。没有加入后续的题目规则或其他候选模型。
 
 最新修订报告为 **7 页 Word**：`report/Experiment_Report_Revised.docx`，文字源稿为 `report/Experiment_Report_Revised.md`。原 PDF 版本保留在 `report/Experiment_Report.pdf`。
 官方代码基线为 `xudongwu-0/DASE7506-MP2` 的提交 `bb801f4f2e7629d270df765ab12c333b2dc616bb`。
+
+## 代码与检查点地址
+
+- 代码仓库：<https://github.com/qutcal-alt/DASE7506-MP2>
+- 检查点目录：<https://github.com/qutcal-alt/DASE7506-MP2/tree/main/code/runs/model_bundle>
+- 下载完整项目与全部检查点：<https://github.com/qutcal-alt/DASE7506-MP2/archive/refs/heads/main.zip>
+- 检查点哈希清单：<https://github.com/qutcal-alt/DASE7506-MP2/blob/main/CHECKPOINT_MANIFEST.json>
+
+检查点目录包含 9 份 NPZ 和 `config.json`。哈希清单用于校验文件，权重与配置从检查点目录或完整 ZIP 获取。
+本次核验的远端提交为 `d6b6c2a1e904103aa12f5474be20e2dc6fb8c112`；该提交的权重内容与冻结版相同，入口及配置的换行修复随本次更新提供。
+推理代码与检查点的固定对应关系以 `METHOD_MANIFEST.json` 为准。
+
+先下载并解压 ZIP，或执行：
+
+```bash
+git clone https://github.com/qutcal-alt/DASE7506-MP2.git
+cd DASE7506-MP2
+```
+
+保留仓库内的 `.gitattributes`。冻结文件、权重与实验记录按原始字节存储，Git 不应转换其换行格式；否则会触发 SHA-256 完整性检查。
 
 ## 目录
 
@@ -75,7 +95,7 @@ python -m venv .venv-train
 
 默认推理资产按未压缩 NPY 成员及配置计为 **643,525 字节**，低于 16 MiB。
 本地 CPU 为 Intel Core Ultra 5 250K Plus；参考 Xeon Platinum 8457C 的 30 秒资格仍需在参考机上实测。
-本次整理保留了原 84.15% 版的推理文件与 checkpoint；只整理固定训练依赖、复现工具和实验材料。
+本次整理保留了原 84.1542% 版的推理文件与 checkpoint；只整理固定训练依赖、复现工具和实验材料。
 各环境重新拟合可能有浮点差异，直接使用默认冻结权重即可复现报告成绩。
 
 ## AI 和复用说明
@@ -86,4 +106,6 @@ AI 助手参与代码实现、实验运行、目录整合、报告撰写与编�
 官方数据许可证与归属保留在 `code/data/LICENSE.txt` 和 `NOTICE.txt`。
 
 开发期间已多次观察公开 test 分数。本报告将其作为已冻结配置的公开评测结果，不宣称一次性盲测。
-最终课程提交仍需提供公开代码和 checkpoint 链接；本目录未自动上传或提交到外部平台。
+代码与检查点的公开链接见上文。报告使用四位小数，官方评分 JSON 保留评测器输出的完整精度。
+
+本次 Word 修订将 AI 使用情况单列为第 7.3 节，代码及检查点地址列在第 6.3 节。

@@ -2,14 +2,15 @@
   "method_sha256": "10aaffbf69af46348703c03a53e4211d3e2adcf12c4604b7e1a97ed6c3bc4706",
   "excludes": [
     "RELEASE_MANIFEST.json (this file)",
+    ".git",
     "__pycache__",
     "*.pyc",
     "*.pyo"
   ],
   "files": {
     ".gitattributes": {
-      "bytes": 43,
-      "sha256": "28575d6626eba43c9cd76d7d1ae771105c827730ede1befe0505483566ddc3cd"
+      "bytes": 82,
+      "sha256": "bb0dbe5cb3e6e718ddfd50826f502ab373640d5b3b6195499713a9fb1d53f675"
     },
     "CHECKPOINT_MANIFEST.json": {
       "bytes": 976,
@@ -260,8 +261,8 @@
       "sha256": "61dee553f9a0a4e231497ed6be97a7c6ffe343e8b7356350afd3015976491291"
     },
     "README.md": {
-      "bytes": 5018,
-      "sha256": "820525d56eb1c353439f72a1b98a7548cdcb3e72daeea15d415d26d65233551b"
+      "bytes": 6274,
+      "sha256": "94f98649879dd24478d0bbba03a877d5611906d8bc8def57c64c2e7cf2076905"
     },
     "records/ablations/full/test-predictions.json": {
       "bytes": 40746,
@@ -1067,6 +1068,10 @@
       "bytes": 4145,
       "sha256": "195bc6c34060c5cd8e00776fe9f281a99cbbf2b7709ceaddbc3b5b50c7f31932"
     },
+    "records/public_repository_verification.json": {
+      "bytes": 7232,
+      "sha256": "e28240dac2c68218d4217b2f8a92c06b392bc90ca1db4649b83af8d67ca0b711"
+    },
     "records/report_quality.json": {
       "bytes": 441,
       "sha256": "9a8d7e3d90a06dbbc1d164f8b2ed5109a84c875e0e0fcd73bcd8cc709fc5cdc1"
@@ -1180,8 +1185,8 @@
       "sha256": "2a79777c85a5c648791f2bc0d7184f22e5ec5f29b98f95911c49118502636c92"
     },
     "records/word_report_quality.json": {
-      "bytes": 1174,
-      "sha256": "5ba73cd5404b5f918cea7b252d666acfb9591b50eb19c970d38a34e80a6e9af1"
+      "bytes": 1201,
+      "sha256": "c0dd4b23914b41e50899e6a995ab8e3a34553c9664a862aeb26cded4f610aca2"
     },
     "report/evidence.json": {
       "bytes": 26843,
@@ -1196,12 +1201,12 @@
       "sha256": "2ed0c01e8969f9f5dade88e1994ef020892b15f631cd6ca09622cd3b4cc12a32"
     },
     "report/Experiment_Report_Revised.docx": {
-      "bytes": 47527,
-      "sha256": "753c01d6d4c2a4dde1ea12138d9bcec17e9bb400ca62a5022a9a56409aa4de32"
+      "bytes": 47758,
+      "sha256": "283c1b7fd061624d316174e91c13460c2b1a53fb0b5c9d7b343ba2f334d4bc61"
     },
     "report/Experiment_Report_Revised.md": {
-      "bytes": 14514,
-      "sha256": "6632a93152a1b1dc6eabee711a290d8e86a312d1f068fecf0e14426bb8f623a6"
+      "bytes": 15055,
+      "sha256": "d46f498f104ae886c4e56786aab8a134fd6a34b02e54f4cb440b6f961a262e6b"
     },
     "VERIFICATION.json": {
       "bytes": 825,

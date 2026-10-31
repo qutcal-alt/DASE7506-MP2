@@ -1,3 +1,2 @@
-* text=auto eol=lf
-*.npz -text
-*.pdf -text
+# Preserve exact bytes for frozen source, assets, and experiment records.
+* -text
